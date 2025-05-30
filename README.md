@@ -37,9 +37,9 @@ Follow the steps below to run the app on your local machine.
 ---
 
 ### 1. Clone the Repository
-```bash
-git clone https://github.com/Abhiman-Singh/soccer-central.git
-cd soccer-central
+       ```bash
+           git clone https://github.com/Abhiman-Singh/soccer-central.git
+           cd soccer-central
 
 2. Backend Setup
 bash
