@@ -4,6 +4,14 @@ A simple web application that displays a list of upcoming soccer matches by fetc
 
 ---
 
+## Screenshots
+- Android and IOS
+<p>
+<img src="https://github.com/Abhiman-Singh/soccer-central/blob/7643bf141c18348380ad6e20fdf587cd007b208f/mobile%20view.png" width="236" height="500" style="margin-right: 40px">
+- Web
+<img src="https://github.com/Abhiman-Singh/soccer-central/blob/7643bf141c18348380ad6e20fdf587cd007b208f/pc%20view.png"  style="margin-right: 40px">
+</p>
+
 ## ✨ Features
 
 - Displays upcoming soccer matches.
