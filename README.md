@@ -36,22 +36,21 @@ Follow the steps below to run the app on your local machine.
 
 ---
 
-1. Clone the Repository
-   ```bash
-   git clone https://github.com/Abhiman-Singh/soccer-central.git
+# 1. Clone the Repository
+    ```bash
+    git clone https://github.com/Abhiman-Singh/soccer-central.git
 
 
- 2. Backend Setup
+ # 2. Backend Setup
     ```bash
     cd backend
     npm install
 🔐 Configure API Key
-Create a .env file in the backend directory:
+-Create a .env file in the backend directory:
+-FOOTBALL_DATA_KEY=YOUR_FOOTBALL_DATA_ORG_API_KEY_HERE
+-Replace YOUR_FOOTBALL_DATA_ORG_API_KEY_HERE with your actual API key.
 
-FOOTBALL_DATA_KEY=YOUR_FOOTBALL_DATA_ORG_API_KEY_HERE
-Replace YOUR_FOOTBALL_DATA_ORG_API_KEY_HERE with your actual API key.
-
-# Start the Backend Server
+-Start the Backend Server
     npm start
 -The backend server will run at: http://localhost:5000
 # 3.Frontend Setup
@@ -62,15 +61,15 @@ Replace YOUR_FOOTBALL_DATA_ORG_API_KEY_HERE with your actual API key.
 -The React app will open at: http://localhost:3000
 
 # 4.Usage
-Once both servers are running:
+-Once both servers are running:
 
-Visit http://localhost:3000 in your browser.
+-Visit http://localhost:3000 in your browser.
 
-The app will automatically fetch and display upcoming soccer matches.
+-The app will automatically fetch and display upcoming soccer matches.
 
-The backend retrieves matches scheduled for the next 10 days (as per free API tier limits).
+-The backend retrieves matches scheduled for the next 10 days (as per free API tier limits).
 
-5. API Details
+# 5. API Details
 External API: Football-Data.org
 
 -Backend Endpoint: http://localhost:5000/api/matches
