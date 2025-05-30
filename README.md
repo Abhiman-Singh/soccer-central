@@ -41,3 +41,5 @@ Follow the steps below to run the app on your local machine.
 ```bash
 git clone https://github.com/Abhiman-Singh/soccer-central.git
 cd soccer-central
+
+### 2. Backend Setup
